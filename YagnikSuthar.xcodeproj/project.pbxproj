@@ -12,6 +12,14 @@
 		120174CF21A5C5A4005A4502 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 120174CD21A5C5A4005A4502 /* Main.storyboard */; };
 		120174D121A5C5A6005A4502 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 120174D021A5C5A6005A4502 /* Assets.xcassets */; };
 		120174D421A5C5A6005A4502 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 120174D221A5C5A6005A4502 /* LaunchScreen.storyboard */; };
+		120174EA21A5C70D005A4502 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120174DC21A5C70C005A4502 /* Constant.swift */; };
+		120174EB21A5C70D005A4502 /* CommonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120174DD21A5C70C005A4502 /* CommonManager.swift */; };
+		120174EC21A5C70D005A4502 /* ConstantMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120174DE21A5C70C005A4502 /* ConstantMessage.swift */; };
+		120174ED21A5C70D005A4502 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120174DF21A5C70C005A4502 /* Extension.swift */; };
+		120174F221A5C70D005A4502 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120174E821A5C70D005A4502 /* String.swift */; };
+		120174F321A5C70D005A4502 /* PhoneNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120174E921A5C70D005A4502 /* PhoneNumberFormatter.swift */; };
+		120174F521A5CAAE005A4502 /* OrderDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120174F421A5CAAD005A4502 /* OrderDetailsModel.swift */; };
+		5B79F9626D87E83A3DEFC3AE /* Pods_YagnikSuthar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E32D1C14625843E15F56ED1 /* Pods_YagnikSuthar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,16 @@
 		120174D021A5C5A6005A4502 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		120174D321A5C5A6005A4502 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		120174D521A5C5A6005A4502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		120174DC21A5C70C005A4502 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		120174DD21A5C70C005A4502 /* CommonManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonManager.swift; sourceTree = "<group>"; };
+		120174DE21A5C70C005A4502 /* ConstantMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantMessage.swift; sourceTree = "<group>"; };
+		120174DF21A5C70C005A4502 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		120174E821A5C70D005A4502 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		120174E921A5C70D005A4502 /* PhoneNumberFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberFormatter.swift; sourceTree = "<group>"; };
+		120174F421A5CAAD005A4502 /* OrderDetailsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDetailsModel.swift; sourceTree = "<group>"; };
+		3E32D1C14625843E15F56ED1 /* Pods_YagnikSuthar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YagnikSuthar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9CAEC53BCCEBFA3E67B6B18 /* Pods-YagnikSuthar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YagnikSuthar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YagnikSuthar/Pods-YagnikSuthar.debug.xcconfig"; sourceTree = "<group>"; };
+		EF0610A130027EDEBB03343F /* Pods-YagnikSuthar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YagnikSuthar.release.xcconfig"; path = "Pods/Target Support Files/Pods-YagnikSuthar/Pods-YagnikSuthar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B79F9626D87E83A3DEFC3AE /* Pods_YagnikSuthar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +59,8 @@
 			children = (
 				120174C821A5C5A4005A4502 /* YagnikSuthar */,
 				120174C721A5C5A4005A4502 /* Products */,
+				A3CDF9FE2DE59B3E548E4631 /* Pods */,
+				FF7734A6F3A4FEA5B0D20816 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +75,8 @@
 		120174C821A5C5A4005A4502 /* YagnikSuthar */ = {
 			isa = PBXGroup;
 			children = (
+				120174F621A5CAD4005A4502 /* Model */,
+				120174DB21A5C70C005A4502 /* Utilities */,
 				120174C921A5C5A4005A4502 /* AppDelegate.swift */,
 				120174CB21A5C5A4005A4502 /* ViewController.swift */,
 				120174CD21A5C5A4005A4502 /* Main.storyboard */,
@@ -64,6 +87,44 @@
 			path = YagnikSuthar;
 			sourceTree = "<group>";
 		};
+		120174DB21A5C70C005A4502 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				120174DC21A5C70C005A4502 /* Constant.swift */,
+				120174DD21A5C70C005A4502 /* CommonManager.swift */,
+				120174DE21A5C70C005A4502 /* ConstantMessage.swift */,
+				120174DF21A5C70C005A4502 /* Extension.swift */,
+				120174E821A5C70D005A4502 /* String.swift */,
+				120174E921A5C70D005A4502 /* PhoneNumberFormatter.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		120174F621A5CAD4005A4502 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				120174F421A5CAAD005A4502 /* OrderDetailsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A3CDF9FE2DE59B3E548E4631 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9CAEC53BCCEBFA3E67B6B18 /* Pods-YagnikSuthar.debug.xcconfig */,
+				EF0610A130027EDEBB03343F /* Pods-YagnikSuthar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF7734A6F3A4FEA5B0D20816 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E32D1C14625843E15F56ED1 /* Pods_YagnikSuthar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +132,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 120174D821A5C5A6005A4502 /* Build configuration list for PBXNativeTarget "YagnikSuthar" */;
 			buildPhases = (
+				2703A8B29B81A5FA2E8029B7 /* [CP] Check Pods Manifest.lock */,
 				120174C221A5C5A4005A4502 /* Sources */,
 				120174C321A5C5A4005A4502 /* Frameworks */,
 				120174C421A5C5A4005A4502 /* Resources */,
+				1F8A7E7A1CA45CAF8C57A78B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +193,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F8A7E7A1CA45CAF8C57A78B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YagnikSuthar/Pods-YagnikSuthar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/ReachabilitySwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReachabilitySwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YagnikSuthar/Pods-YagnikSuthar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2703A8B29B81A5FA2E8029B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YagnikSuthar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		120174C221A5C5A4005A4502 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				120174F221A5C70D005A4502 /* String.swift in Sources */,
 				120174CC21A5C5A4005A4502 /* ViewController.swift in Sources */,
+				120174F321A5C70D005A4502 /* PhoneNumberFormatter.swift in Sources */,
 				120174CA21A5C5A4005A4502 /* AppDelegate.swift in Sources */,
+				120174EB21A5C70D005A4502 /* CommonManager.swift in Sources */,
+				120174ED21A5C70D005A4502 /* Extension.swift in Sources */,
+				120174EC21A5C70D005A4502 /* ConstantMessage.swift in Sources */,
+				120174F521A5CAAE005A4502 /* OrderDetailsModel.swift in Sources */,
+				120174EA21A5C70D005A4502 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +395,7 @@
 		};
 		120174D921A5C5A6005A4502 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9CAEC53BCCEBFA3E67B6B18 /* Pods-YagnikSuthar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +414,7 @@
 		};
 		120174DA21A5C5A6005A4502 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF0610A130027EDEBB03343F /* Pods-YagnikSuthar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
